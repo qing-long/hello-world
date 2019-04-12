@@ -13,5 +13,5 @@ steps:
   settings:
     username:
       from_secret: docker_username
-    repo: qing-long/hello-world
+    repo: buglan/hello-world
     tags: latest
