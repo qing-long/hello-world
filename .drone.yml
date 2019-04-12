@@ -13,5 +13,7 @@ steps:
   settings:
     username:
       from_secret: docker_username
+    password:
+      from_secret: docker_password
     repo: buglan/hello-world
     tags: latest
