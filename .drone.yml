@@ -1,4 +1,4 @@
-kind: pipeline
+knd: pipeline
 name: greeting
 
 steps:
@@ -7,13 +7,3 @@ steps:
   commands:
   - echo hello
   - echo world
-
-- name: publish
-  image: plugins/docker
-  settings:
-    username:
-      from_secret: docker_username
-    password:
-      from_secret: docker_password
-    repo: buglan/hello-world
-    tags: latest
