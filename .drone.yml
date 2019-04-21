@@ -2,7 +2,7 @@ knd: pipeline
 name: greeting
 
 steps:
-- name: hello-world
+- name: hello
   image: alpine
   commands:
   - echo hello
