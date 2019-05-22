@@ -7,4 +7,4 @@ steps:
   commands:
   - echo hello
   - echo world
-  - echo ih
+  - echo hi
